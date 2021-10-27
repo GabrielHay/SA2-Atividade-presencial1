@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**********************************************/
+/*******************HEADER*********************/
+header{
+    width: 1440px;
+    height: 80px;
+    /*border: 1px solid red;*/
+}
+
+.logo{
+    width: 165px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+ul{
+    display: inline;
+    margin-left: 550px;
+    margin-top: 30px;
+    position: absolute;
+    width: 590px;
+    height: 23px;
+    align-items: center;
+
+}
+
+a{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+}
+
+button{
+
+    margin-top: 10px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1290px;
+    top: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-size-adjust: 28px;
+    background-color: #57ECF5;
+    border-radius: 5px;
+    border-color: #57ECF5;
+}
+
+/**********************************************/
+/*******************BANNER*********************/
+
+.banner{
+
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    background-color: #005CAA;
+}
+
+
+.figure{
+
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50px;
+    left: 75px;
+}
+
+.banner figure img{
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.texto_banner{
+    position: absolute;
+    width: 544px;
+    height: 42px;
+    left: 800px;
+    top: 50px;
+    text-align: justify;
+
+}
+
+.texto_banner h1{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-size-adjust: 35px;
+  
+
+    color: #FFFFFF;
+}
+
+.texto_banner p{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-size-adjust: 30px;
+
+    color: #FFFFFF;
+}
+
+.texto_banner a{
+    font-style: italic;
+    
+    color: #FFFFFF
+}
+
+/**********************************************/
+/*******************Destaque*********************/
+
+.destaque{
+
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 580px;
+    border: 1px solid red;
+
+}
+
+.img_destaque{
+
+    float: left;
+    width: 230px;
+    top: 500px;
+    left: 30px;
+    padding: 30px;
+    padding-right: 20px;
+}
+
+.img_destaque figure img{
+
+    margin: 250px 0px 0px 0px;
+    width: 230px;
+    height: 150;
+}
+
+.img_destaque figure figcaption{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-left: 10px;
+
+    color: black;
+}
+
+.texto_destaque{
+
+    position: absolute;
+    width: 544px;
+    height: 42px;
+    left: 436px;
+
+}
+
+.texto_destaque h1{
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+.texto_destaque p{
+
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+
+}
+
