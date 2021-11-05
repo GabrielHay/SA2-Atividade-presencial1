@@ -38,7 +38,7 @@ ul a{
     text-size-adjust: 30px;
 }
 
-button{
+.btn-login{
 
     margin-top: 10px;
     position: absolute;
@@ -382,4 +382,133 @@ button{
     line-height: 1.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+}
+
+
+/*********************************************************/
+/*******************Hardware - Tabela*********************/
+
+.area-hardware{
+
+    width: 1440px;
+    height: 80px;
+    margin-top: 15px;
+
+}
+
+th{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: darkgray;
+}
+
+.descricao-produto{
+
+    width: 300px;
+    height: 80px;
+    text-align: center;
+
+}
+
+.img-produto-cabecalho{
+
+    width: 300px;
+    height: 80px;
+    text-align: center;
+
+}
+.preco{
+
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+.compra{
+
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+.descricao{
+
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.img-produto{
+
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.img-produto img{
+
+    width: 250px;
+    height: auto;
+    margin-left: 23px;
+}
+
+.valor-produto{
+
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: dashed;
+}
+
+.compra-produto{
+
+    width: 300px;
+    height: auto;
+
+}
+
+.btn-comprar{
+
+
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #4caf50;
+    margin-left: 110px;
+
+}
+
+.hardware-rodape{
+
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 1160px;
+}
+
+
+
+th, td{
+
+    border: 1px solid orange;
+}
+
+td{
+
+    padding-top: 50px;
 }
